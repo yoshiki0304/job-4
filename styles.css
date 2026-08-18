@@ -201,13 +201,18 @@ button{font:inherit}
 }
 .line-mark{
   background:#fff;
-  color:var(--line);
   display:grid;
   place-items:center;
   height:52px;
   border-radius:7px;
-  font-size:12px;
-  font-weight:900;
+  overflow:hidden;
+  padding:3px;
+}
+.line-mark img{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  display:block;
 }
 .line-cta span:nth-child(2){display:block;text-align:center}
 .line-cta small{display:block;font-size:12px}
@@ -607,7 +612,7 @@ body.popup-open{overflow:hidden}
   .today-cta p{font-size:15px}
   .today-cta p b{font-size:20px}
   .line-cta{grid-template-columns:55px 1fr 22px;gap:7px;min-height:76px;padding:7px 9px}
-  .line-mark{height:46px;font-size:10px}
+  .line-mark{height:46px}
   .line-cta small{font-size:10px}
   .line-cta strong{font-size:18px}
   .line-cta>i{font-size:33px}

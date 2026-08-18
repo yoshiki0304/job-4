@@ -1,7 +1,7 @@
 :root{
-  --red:#df2c0d;
-  --red-dark:#b91f08;
-  --yellow:#ffe400;
+  --red:#18a34a;
+  --red-dark:#0f7f38;
+  --yellow:#d9ff6a;
   --black:#232323;
   --line:#06c755;
   --gray:#f4f4f4;
@@ -89,7 +89,7 @@ button{font:inherit}
 .hero{
   position:relative;
   background:
-    radial-gradient(circle at 85% 12%,rgba(255,228,0,.25),transparent 26%),
+    radial-gradient(circle at 85% 12%,rgba(130,255,170,.28),transparent 26%),
     linear-gradient(145deg,#fff 0 47%,#f3f3f3 47% 100%);
   border-bottom:8px solid var(--red);
 }
@@ -123,7 +123,7 @@ button{font:inherit}
   color:var(--red);
   font-style:normal;
   font-size:88px;
-  text-shadow:3px 3px 0 #fff,6px 6px 0 #ffc800;
+  text-shadow:3px 3px 0 #fff,6px 6px 0 #a8ef8a;
 }
 .hero-strong{
   display:inline-flex;
@@ -131,14 +131,14 @@ button{font:inherit}
   gap:5px;
   margin-top:18px;
   padding:8px 12px 7px;
-  background:linear-gradient(#ef3918,#c91f08);
+  background:linear-gradient(#1bbb58,#0f8d40);
   color:#fff;
   font-size:24px;
   line-height:1;
   transform:skew(-4deg);
   box-shadow:6px 6px 0 #272727;
 }
-.hero-strong b{font:900 43px/1 Arial,sans-serif;color:#ffe400;text-shadow:2px 2px 0 #8e1304}
+.hero-strong b{font:900 43px/1 Arial,sans-serif;color:#ffe400;text-shadow:2px 2px 0 #0e6a30}
 .hero-sub{font-size:14px;line-height:1.65;margin:20px 0 0}
 .hero-photos{
   position:relative;

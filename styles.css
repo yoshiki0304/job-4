@@ -684,3 +684,16 @@ body.popup-open{overflow:hidden}
   *{scroll-behavior:auto!important;animation:none!important;transition:none!important}
   .reveal{opacity:1;transform:none}
 }
+
+
+/* TOP main visual updated */
+.hero-main-visual{
+  background:#ffffff;
+  border-bottom:8px solid var(--red);
+  padding:0;
+}
+.hero-main-image{
+  width:100%;
+  height:auto;
+  display:block;
+}

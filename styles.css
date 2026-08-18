@@ -1,7 +1,7 @@
 :root{
-  --red:#df2c0d;
-  --red-dark:#b91f08;
-  --yellow:#ffe400;
+  --red:#18a34a;
+  --red-dark:#0f7f38;
+  --yellow:#d9ff6a;
   --black:#232323;
   --line:#06c755;
   --gray:#f4f4f4;
@@ -33,15 +33,15 @@ button{font:inherit}
   display:flex;
   align-items:center;
   justify-content:space-between;
-  gap:10px;
-  padding:10px 8px 10px 4px;
+  gap:12px;
+  padding:10px 14px;
   background:#fff;
   border-bottom:4px solid var(--red);
   position:relative;
   z-index:30;
 }
-.brand{display:flex;align-items:center;justify-content:flex-start;min-width:0;flex:1;max-width:calc(100% - 108px);margin-right:auto}
-.brand-image{display:block;width:min(100%,580px);height:auto;max-height:72px;object-fit:contain;object-position:left center}
+.brand{display:flex;align-items:center;min-width:0;flex:1;max-width:calc(100% - 112px)}
+.brand-image{display:block;width:min(100%,540px);height:auto;max-height:68px;object-fit:contain}
 .brand-mark{display:none}
 .brand-copy{display:none}
 .brand-copy small{display:none}
@@ -82,7 +82,7 @@ button{font:inherit}
 .hero{
   position:relative;
   background:
-    radial-gradient(circle at 85% 12%,rgba(255,228,0,.25),transparent 26%),
+    radial-gradient(circle at 85% 12%,rgba(130,255,170,.28),transparent 26%),
     linear-gradient(145deg,#fff 0 47%,#f3f3f3 47% 100%);
   border-bottom:8px solid var(--red);
 }
@@ -116,7 +116,7 @@ button{font:inherit}
   color:var(--red);
   font-style:normal;
   font-size:88px;
-  text-shadow:3px 3px 0 #fff,6px 6px 0 #ffc800;
+  text-shadow:3px 3px 0 #fff,6px 6px 0 #a8ef8a;
 }
 .hero-strong{
   display:inline-flex;
@@ -124,14 +124,14 @@ button{font:inherit}
   gap:5px;
   margin-top:18px;
   padding:8px 12px 7px;
-  background:linear-gradient(#ef3918,#c91f08);
+  background:linear-gradient(#1bbb58,#0f8d40);
   color:#fff;
   font-size:24px;
   line-height:1;
   transform:skew(-4deg);
   box-shadow:6px 6px 0 #272727;
 }
-.hero-strong b{font:900 43px/1 Arial,sans-serif;color:#ffe400;text-shadow:2px 2px 0 #8e1304}
+.hero-strong b{font:900 43px/1 Arial,sans-serif;color:#ffe400;text-shadow:2px 2px 0 #0e6a30}
 .hero-sub{font-size:14px;line-height:1.65;margin:20px 0 0}
 .hero-photos{
   position:relative;
@@ -575,9 +575,9 @@ body.popup-open{overflow:hidden}
 @media (max-width:640px){
   body{background:#fff}
   .page-shell{width:100%;box-shadow:none}
-  .topbar{min-height:76px;padding:9px 10px}
-  .brand-mark{width:32px;height:32px;flex-basis:32px}
-  .brand-copy small{font-size:8px}
+  .topbar{min-height:82px;padding:8px 10px;gap:8px}
+  .brand{max-width:calc(100% - 86px)}
+  .brand-image{max-height:52px;width:100%}
   .top-line{padding:7px 8px;gap:5px}
   .top-line i{font-size:8px;padding:6px 4px}
   .line-mini-icon{width:24px;height:24px;flex-basis:24px}
@@ -673,8 +673,8 @@ body.popup-open{overflow:hidden}
 @media (max-width:380px){
   .brand-copy strong{font-size:16px}
   .top-line b{display:none}
-  .brand{max-width:calc(100% - 52px)}
-  .brand-image{max-height:48px;object-position:left center}
+  .brand{max-width:calc(100% - 54px)}
+  .brand-image{max-height:48px}
   .hero h1 span{font-size:43px}
   .hero h1 em{font-size:68px}
   .hero-strong{font-size:17px}

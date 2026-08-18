@@ -41,3 +41,6 @@ https://lin.ee/xo4sCJy
 【今回の追加修正】
 ・LPのTOPメインビジュアルを支給画像へ差し替え
 ・画像ファイルを assets/top-main-visual.png として同梱
+
+【今回の追加修正】
+・ヘッダー下のページ内メニュー（お悩み / 利用特典 / 求人紹介 / 4STEP / FAQ）を削除
